@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "679729328622",
+    "firebase_url": "https://smartgardeningedp.firebaseio.com",
+    "project_id": "smartgardeningedp",
+    "storage_bucket": "smartgardeningedp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679729328622:android:76cb2ed0b614e4a62b9eff",
+        "android_client_info": {
+          "package_name": "com.example.edp_plantsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679729328622-eiotp2t9i2t1c3jl6huc1ho6kv0nemni.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.edp_plantsystem",
+            "certificate_hash": "9fa65aaecc867154dd04cb0ea2e9488b6d7e58c1"
+          }
+        },
+        {
+          "client_id": "679729328622-r030r9btn8bs9b6k7pjqmskpksiu4auh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbzcK2-QG1QSjBm5qsWe_Ecks2PPXQWi4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679729328622-r030r9btn8bs9b6k7pjqmskpksiu4auh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
