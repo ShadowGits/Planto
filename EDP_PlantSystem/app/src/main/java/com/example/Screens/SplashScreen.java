@@ -1,11 +1,12 @@
-package com.example.edp_plantsystem;
+package com.example.Screens;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.view.Menu;
+
+import com.example.edp_plantsystem.R;
 
 public class SplashScreen extends AppCompatActivity {
     private final int SPLASH_DISPLAY_LENGTH = 1000;

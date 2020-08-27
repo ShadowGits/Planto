@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/plant_image_1"
-    tools:context=".ThingsSpeakApiDataFetchActiivty">
+    tools:context="com.example.Screens.ThingsSpeakApiDataFetchActiivty">
     android:background="@drawable/plant_image_1">
 
 

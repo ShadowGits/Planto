@@ -1,8 +1,9 @@
-package com.example.edp_plantsystem
+package com.example.Screens
 
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.edp_plantsystem.R
 import me.itangqi.waveloadingview.WaveLoadingView
 
 class SoilDataActivity : AppCompatActivity() {

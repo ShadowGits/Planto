@@ -1,4 +1,4 @@
-package com.google.firebase.udacity.friendlychat
+package com.example.edp_plantsystem.Adapter
 
 import androidx.appcompat.app.AppCompatActivity
 import android.content.Context
@@ -10,6 +10,7 @@ import android.widget.TextView
 
 import com.bumptech.glide.Glide
 import com.example.edp_plantsystem.R
+import com.google.firebase.udacity.friendlychat.FriendlyMessage
 
 class MessageAdapter(context: Context, resource: Int, objects: List<FriendlyMessage>) : ArrayAdapter<FriendlyMessage>(context, resource, objects) {
 

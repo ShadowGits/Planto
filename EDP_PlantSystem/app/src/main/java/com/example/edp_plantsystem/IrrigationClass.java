@@ -3,9 +3,6 @@ package com.example.edp_plantsystem;
 public class IrrigationClass {
 
 
-    /*
-     * private variables
-     */
     private String IrrigationStatus;
     private String time;
 

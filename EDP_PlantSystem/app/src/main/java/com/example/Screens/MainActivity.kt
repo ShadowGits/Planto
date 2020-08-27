@@ -1,4 +1,4 @@
-package com.example.edp_plantsystem
+package com.example.Screens
 
 
 import android.app.Activity
@@ -13,13 +13,14 @@ import androidx.appcompat.app.ActionBar
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.viewpager.widget.ViewPager
+import com.example.edp_plantsystem.Adapter.MainViewFragmentPagerAdapter
+import com.example.edp_plantsystem.R
 import com.firebase.ui.auth.AuthUI
 import com.google.android.material.navigation.NavigationView
 import com.google.android.material.tabs.TabLayout
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
-import com.google.firebase.udacity.friendlychat.FriendlyMessage
-import com.google.firebase.udacity.friendlychat.MessageAdapter
+import com.example.edp_plantsystem.Adapter.MessageAdapter
 
 class MainActivity : AppCompatActivity(){
     //navigation drawer
@@ -175,14 +176,14 @@ class MainActivity : AppCompatActivity(){
                 when (id) {
 
                     R.id.navigation_item_2 -> {Toast.makeText(this@MainActivity, "Know Your Plant", Toast.LENGTH_SHORT).show()
-                        var intent:Intent=Intent(this@MainActivity,PlantDataActivity::class.java)
+                        var intent:Intent=Intent(this@MainActivity, PlantDataActivity::class.java)
                         //intent.putExtra("plantData",data)
                         startActivity(intent)
                     }
-                    R.id.navigation_item3->{var intent=Intent(this@MainActivity,ThingsSpeak::class.java)
-                    startActivity(intent)}
-                    R.id.navigation_item4->{var intent=Intent(this@MainActivity,ThingsSpeakApiDataFetchActiivty::class.java)
-                        startActivity(intent)}
+//                    R.id.navigation_item3 ->{var intent=Intent(this@MainActivity, ThingsSpeak::class.java)
+//                    startActivity(intent)}
+//                    R.id.navigation_item4 ->{var intent=Intent(this@MainActivity, ThingsSpeakApiDataFetchActiivty::class.java)
+//                        startActivity(intent)}
                     else -> return true
                 }
 
@@ -198,7 +199,7 @@ class MainActivity : AppCompatActivity(){
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
 
-        if(item.itemId==R.id.sign_out_menu)
+        if(item.itemId== R.id.sign_out_menu)
         {
             AuthUI.getInstance().signOut(this@MainActivity)
             return true

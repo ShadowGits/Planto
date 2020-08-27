@@ -11,15 +11,15 @@
             android:checked="true"
             android:title="Know Your Plant" />
 
-        <item
-            android:id="@+id/navigation_item3"
-            android:checked="true"
-            android:title="Grpahical Analysis"></item>
+<!--        <item-->
+<!--            android:id="@+id/navigation_item3"-->
+<!--            android:checked="true"-->
+<!--            android:title="Grpahical Analysis"></item>-->
 
-        <item
-            android:id="@+id/navigation_item4"
-            android:checked="true"
-            android:title="Analysis"></item>
+<!--        <item-->
+<!--            android:id="@+id/navigation_item4"-->
+<!--            android:checked="true"-->
+<!--            android:title="Analysis"></item>-->
 
     </group>
 </menu>

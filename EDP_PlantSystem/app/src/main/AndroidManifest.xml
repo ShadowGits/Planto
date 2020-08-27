@@ -13,20 +13,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".SplashScreen">
+        <activity android:name="com.example.Screens.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ThingsSpeakApiDataFetchActiivty" />
+        <activity android:name="com.example.Screens.ThingsSpeakApiDataFetchActiivty" />
         <activity android:name=".ThingsSpeak" />
-        <activity android:name=".SoilDataActivity" />
+        <activity android:name="com.example.Screens.SoilDataActivity" />
         <activity
-            android:name=".PlantDataActivity"
+            android:name="com.example.Screens.PlantDataActivity"
             android:windowSoftInputMode="adjustPan" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.Screens.MainActivity">
 
         </activity>
     </application>
